@@ -1,0 +1,6 @@
+# docker-compose.yml
+services:
+  hello-api:
+    image: ${IMAGE_NAME}:${IMAGE_TAG}
+    build:
+      context: .
